@@ -1,11 +1,23 @@
-name = "cf-worker-ws-dev-0415" # todo
+name = "server-id11" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
-
 #main = "test/worker/worker-connect-test.js"
-main = "src/worker-vless.js"
+main = "_worker.js"
+compatibility_date = "2023-05-26"
+[[routes]] 
+pattern = "id11.johan.cyou"
+custom_domain = true 
+pattern = "quiz.int.vidio.com.id11.johan.cyou" 
+custom_domain = true 
+pattern = "quiz.vidio.com.id11.johan.cyou"
+custom_domain = true 
 
-compatibility_date = "2024-04-15"
 
 [vars]
-# UUID = "example_dev_token"
+# UUID = "d342d11e-d424-4583-b36e-524ab1f0afa4"
+# PROXYIP = "1.2.3.4"
+# DNS_RESOLVER_URL = "https://cloudflare-dns.com/dns-query"
+# NODE_ID = "1"
+# API_TOKEN = "example_dev_token"
+# API_HOST = "api.v2board.com"
+UUID = "ca4cd80b-6d82-44f1-88a7-4a2bc1646a86"
